@@ -1,0 +1,135 @@
+.header{
+    text-align: center;
+    align-items: center;
+}
+.name{
+    font-family: 'Sacramento', cursive;
+}
+.under, .latsi, .karshe{
+    font-family: 'Rubik', sans-serif;
+    font-size:12px;
+    gap:2px;
+    color: #9b9797;
+}
+a{
+    text-decoration: none;
+    color: #9b9797;
+}
+.latsi{
+    display:flex;
+    gap:25px;
+    text-align: center;
+    margin-left:600px;
+    padding-top:20px;
+}
+.hoto{
+    width:1050px;
+    height:500px;
+    margin-left:150px;
+    margin-top: 15px;
+}
+.rubutu{
+    margin-right:145px;
+    text-align: end;
+    font-family: 'Rubik', sans-serif;
+    color: #424040;
+}
+.quote{
+    font-size:20px;
+}
+.he{
+    font-family: 'Rubik', sans-serif;
+    font-style: italic;
+}
+
+.billi{
+    display:flex;
+    margin-left:450px;
+    margin-top:120px;
+    gap:100px;
+}
+.button{
+    color: #424040;
+    width:150px;
+    height:50px;
+    border:2px solid rgb(59, 56, 56);
+    background-color: white;
+}
+hr{
+    color:black;
+    margin-left:70px;
+    margin-right:70px;
+    margin-top:100px;
+    margin-bottom: 100px;
+}
+.find{
+    margin-top:40px;
+    text-align: center;
+}
+.logo{
+    width:50px;
+    height:50px;
+
+}
+.karshe{
+    text-align: center;
+}
+a:hover{
+    cursor: pointer;
+}
+
+
+
+@media(max-width:375px){
+   .latsi{
+    margin-left:70px;
+   }
+   .hoto{
+    width:330px;
+    height:200px;
+    margin-left:0px;
+   }
+  .quote{
+    font-size:10px;
+  }
+  .he{
+    font-size:8px;
+  }
+  .rubutu{
+    margin-right:20px;
+  }
+  .billi{
+    margin-left:40px;
+    gap:50px;
+  }
+  .button{
+    width:100px;
+  }
+}
+
+@media(max-width:320px){
+.hoto{
+    margin-left:0px;
+    width:270px;
+}
+.latsi{
+    margin-left:30px;
+}
+}
+
+@media(max-width:425px){
+    .hoto{
+        margin-left:20px;
+    }
+    .name{
+        font-size:25px;
+    }
+    .billi{
+        gap:30px;
+    }
+}
+@media(max-width:768px){
+.latsi{
+    margin-left:100px;
+}
+}

@@ -1,0 +1,127 @@
+.header{
+    text-align: center;
+    align-items: center;
+}
+.name{
+    font-family: 'Sacramento', cursive;
+}
+.under, .latsi, .karshe{
+    font-family: 'Rubik', sans-serif;
+    font-size:12px;
+    gap:2px;
+    color: #9b9797;
+}
+a{
+    text-decoration: none;
+    color: #9b9797;
+}
+.latsi{
+    display:flex;
+    gap:25px;
+    text-align: center;
+    margin-left:600px;
+    padding-top:20px;
+}
+body{
+    font-family: 'Rubik', sans-serif;
+    color:#424040;
+}
+.logo{
+    width:70px;
+    height:70px;
+}
+hr{
+    color:black;
+    margin-left:70px;
+    margin-right:70px;
+    margin-top:100px;
+    margin-bottom: 100px;
+}
+.karshe{
+    text-align: center;
+}
+.lamba{
+    text-align:center;
+}
+.wani{
+    width:400px;
+    height: 250px;
+    margin-left:450px;
+}
+.billi{
+    display:flex;
+    margin-left:450px;
+    margin-bottom:90px;
+    gap:100px;
+}
+.button{
+    color: #424040;
+    width:150px;
+    height:50px;
+    border:2px solid rgb(59, 56, 56);
+    background-color: white;
+}
+a:hover{
+    cursor: pointer;
+}
+
+
+
+@media(max-width:320px){
+    .latsi{
+        margin-left:70px;
+    }
+    .billi{
+        margin-left:50px;
+    }
+    .wani{
+        margin-left:0px;
+    }
+}
+
+@media(max-width:375){
+    .latsi{
+        margin-left:100px;
+    }
+    .billi{
+        margin-left:120px;
+    }
+    .wani{
+        margin-left:100px;
+    }
+}
+
+@media(max-width:425px){
+    .latsi{
+        margin-left:120px;
+    }
+    .billi{
+        margin-left:200px;
+    }
+    .wani{
+        margin-left:200px;
+    }
+}
+
+@media(max-width:768px){
+    .latsi{
+        margin-left:300px;
+    }
+    .billi{
+        margin-left:250px;
+    }
+    .wani{
+        margin-left:250px;
+    }
+}
+@media(max-width:1024px){
+    .latsi{
+        margin-left:400px;
+    }
+    .billi{
+        margin-left:350px;
+    }
+    .wani{
+        margin-left:350px;
+    }
+}
